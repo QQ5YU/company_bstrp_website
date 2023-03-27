@@ -1,0 +1,48 @@
+// custom variables
+$primary: #007cf8;
+$secondary: #939797;
+$dark: #1b2635;
+$line-height: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $dark;
+}
+
+a>i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    line-height: $line-height;
+}
+
+.text-linear {
+    color: rgb(255, 103, 82);
+}
+
+.nav-link {
+    transition: all .3s ease-out;
+    color: $secondary;
+
+    &:hover {
+        font-weight: bold;
+        color: $white;
+    }
+}
+
+
+#demo-btn {
+    &:hover {
+        color: $white;
+    }
+}
+
+#button-addon2 {
+    &:hover {
+        background-color: $secondary;
+    }
+}
